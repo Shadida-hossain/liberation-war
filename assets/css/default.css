@@ -1,0 +1,38 @@
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+#product-item{
+    overflow: hidden;
+}
+#product-item img{
+    cursor: pointer;
+    transition: 1s linear;
+}
+#product-item img:hover{
+ transform: scale(1.5);
+}
+/* contact page css start */
+.contact-info ul li{
+    list-style: none;
+    color: #fff;
+    background: rgb(19, 19, 20);
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    transition: .5s linear;
+}
+.contact-info ul li :hover{
+        cursor: pointer;
+        background: #007bff;
+    }
+
+.contact-info ul li a{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+
+/* contact page css end */
